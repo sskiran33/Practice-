@@ -1,0 +1,669 @@
+*{margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:"Raleway" ,sans-serif;
+    text-decoration: none;
+    /* list-style: none; */
+  
+
+}
+
+/* home page */
+/* navbar */
+
+.logo-nav{
+   
+    left: 0;
+    right: 0;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Raleway", Sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    box-shadow: 0px 1px 10px rgb(0 0 0 / 10%);
+    position: fixed;
+    z-index: 1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    top: 0px;
+}
+
+.logo{
+    width: 16em;
+}
+.home_para{
+    font-family:"Raleway" ,sans-serif;
+    font-style: normal;
+    font-size:15px ;
+
+
+
+Color
+:#3b3b3b;
+}
+
+a{
+    text-decoration: none;
+    color: #232222;
+    fill: #232222;
+    margin:12px;
+}
+
+.login-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+   font-family: "Raleway", Sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #0037AD;
+    border-radius: 5px 5px 5px 5px;
+    padding: 6px 22px 6px 22px;
+     border: none;}
+ 
+/* dropdown */
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    border: none;
+   color: #494c4f;
+ }
+      
+
+    
+    
+    
+    
+     /* banner one */
+
+.banner-container{
+    display: flex;
+    align-items: center;
+    flex-direction:row ;
+    justify-content:space-evenly;
+    background-color: #E4EAFA;
+    padding: 70px;
+    
+}
+
+.banners{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #112950;
+}
+
+.banner-text{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    background-color: #E4EAFA;
+    font-size: 32px;
+    line-height: 34px;
+    font-family: "Raleway", Sans-serif;}
+
+   .slider-one{  /* banner img */
+    width: 100%;
+    height: auto;
+    max-width: 800px;}
+
+#banner_paragraph{
+   
+    font-weight: 400;
+    
+
+}
+
+    .bannerButton{
+        display: flex;
+        flex-direction: row;
+    }
+
+.button {                      /* banner-button */
+    display: flex;
+     margin: 10px;
+    height: 60px;
+    width: 230px;
+    padding: 10px;
+    background:rgb(0, 55, 173);
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    overflow: hidden;
+    font-size: 13px;
+    font-weight: 500;
+     cursor: pointer
+  }
+
+
+.button__text,
+.button__icon {
+  display: inline-flex;
+ align-items: center;
+  padding: 0 24px;
+  color: #fff;
+  height: 100%;
+}
+
+
+
+/* search icon */
+#search{
+    color: #0037AD;
+   
+}
+
+
+
+
+ .heading-title {
+    color: #0037AD;
+    font-family: "Raleway", Sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 38px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+
+
+
+/* signup banner TRY US FOR FREE (sec=second)*/
+.signup_banner{
+    background-color: #E8E2E2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.sin-up-button{
+    
+    font-family: "Raleway", Sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+ 
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #0037AD;
+    border-radius: 3px 3px 3px 3px;
+    padding: 10px 29px 10px 29px;
+    border: none;
+
+}
+
+
+
+
+/* form */
+.form{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-evenly;
+   font-size: 16px;
+    font-weight: 500;
+  
+ 
+}
+.input-field1{
+    display: flex;
+    flex-direction: column;
+   
+   }
+
+   .input-field{
+    padding :6px;
+    color: rgb(231, 231, 231);
+   }  
+.form-img{
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+}
+.form-headding{
+    color: #0037AD;
+    font-family: "Raleway", Sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 38px; 
+    letter-spacing: 0.5px;
+}
+.book-now-button{
+    font-family: "Raleway", Sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+ 
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #0037AD;
+    border-radius: 30px 30px 30px 30px;
+    padding: 15px 29px 15px 29px;
+     border: none;
+}
+
+
+
+
+/* brand logoes */
+.icon-logos{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+#hippa-logo{
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+ 
+  
+}
+#hl7-logo{
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+  
+   
+}
+#icd10-logo{
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+   
+    
+}
+#ssl-logo{
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+}
+
+
+/* Subscribe to our Newsletter */
+
+.subscribe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #E4EAFA;
+    padding: 20px;
+}
+.email-logo-h1{
+    display: flex;
+    flex-direction: row;
+}
+
+.sub-inp{
+    display: flex;
+    flex-direction:column;
+    
+}
+.subscribe-button{
+    font-family: "Raleway", Sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+    background-color: #0037AD;
+    color: white;
+    padding: 8px 8px 8px 8px;
+    margin: 10px;
+}
+#sub-img{
+    width: 150%;
+    height: auto;
+    max-width: 100px;
+
+} 
+#sub-text{
+   font-family: "Raleway", Sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 38px;
+    color: #0037AD;
+
+}
+
+
+.TESTIMONIAL{/* heading text */
+    background-color: #E4EAFA;
+    color: #0037AD;
+    font-family: "Raleway", Sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 38px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+
+
+
+/* footer */
+.footer-text{
+    color: #0037AD;
+    font-family: "Raleway", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    
+}
+.column {
+    float: left;
+    padding: 20px;
+ 
+}
+.useful-links{
+    color: #0037AD;
+    font-family: "Raleway", Sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 38px;
+    letter-spacing: 0.5px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.footer_ul
+{
+    list-style: none;
+}
+/* home page end */
+
+
+/* WHY YOU NEED SECOND OPINION */ 
+     /* second page */
+
+    .heading-title1{
+    color: #0037AD;
+    font-family: "Raleway", Sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 38px;
+    letter-spacing: 0.5px;
+}
+.wyno_img_h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.wynso_para{
+    
+    padding: 10px;
+}
+/* .heading-title1{
+    margin: 60px;
+    padding: 2px;
+} */
+
+.heading-title2{
+color: #0037AD;
+    font-family: "Raleway", Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+
+   }
+.p{
+    color: #3B3B3B;
+    font-family: "Raleway", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+   
+
+}
+.wyno_img{
+    height: auto;
+}
+
+
+
+/* blog */
+
+.main{
+
+margin: 8%;
+
+}
+
+.card{
+     width:20em;
+     margin: 10px;
+    
+   
+}
+
+.one_two_cards{
+    display: flex;
+   flex-direction: row;
+    
+    }
+   
+
+.image img{
+  width: 100%;
+  border: none;
+ }
+
+ .text-heading_1{
+    color: #3B3B3B;
+    font-family: "Raleway", Sans-serif;
+    font-weight: 600;
+ }
+
+
+button{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border:none;
+  color: #0037AD;
+  border: none;
+ padding:10px;
+}
+.pg_a
+{
+    color: #c36;
+    text-decoration: none;
+}
+/* blog end */
+
+/* for employees */
+h1 , h2, h3{
+    color: #0037AD;
+}
+
+
+/* WHY TRY SECOND OPINION ? */
+.wtso_li{
+    color: #3B3B3B;
+    font-family: "Raleway", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+   
+}
+
+
+
+/* HOW DOES TRY SECOND OPINION WORK */
+.htw_h3{
+    color: #333333;
+    font-family: "Raleway", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.htw_h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+ 
+}
+.htw_h2 {
+    color: #0037AD;
+    font-family: "Raleway", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Media Query*/
+/* home page */
+
+@media screen and (max-width: 860px) {
+    .banner-container{
+        display: flex;
+        flex-direction: column;
+       }
+    }
+@media screen and (max-width: 720px) {
+    .bannerButton{
+        display: flex;
+        flex-direction: column;
+ 
+       }
+    } 
+
+@media screen and (max-width: 720px) {
+    .signup_banner{
+        display: flex;
+        flex-direction: column;
+    }}
+       
+        
+      
+
+@media screen and (max-width: 720px) {
+        .form{
+            display: flex;
+            flex-direction: column;
+        }}  
+           
+           
+            
+         
+       
+ @media screen and (max-width: 720px) { 
+.subscribe{
+        display: flex;
+        flex-direction: column;
+             }}
+
+@media screen and (max-width: 720px) {
+    .email-logo-h1{
+        display: flex;
+        flex-direction: column;
+            }}                     
+            
+
+ @media screen and (max-width:720px) {   /*brand icons*/
+   .container{
+   align-items: center;
+  }}
+    
+
+@media screen and (max-width: 720px) {
+    .footer{
+    display: flex;
+    flex-direction: column;
+  
+  
+}}
+
+
+
+
+
+/* WHY YOU NEED SECOND OPINION */
+/* second page */
+
+@media screen and (max-width: 992px) {
+    .wyno_img_h1{
+    display: flex;
+    flex-direction: column;}
+    
+    .wynsoimg{
+       
+        width: 100%;
+        
+    
+    }
+    
+}
+
+
+/* blog */
+
+
+
+@media screen and (max-width: 720px) {
+    .one_two_cards{
+    display: flex;
+   flex-direction: column;
+    
+    } 
+        
+       } 
+ 
+@media screen and (max-width:992px) {
+    .card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+        height: auto;
+        max-width: 620px;
+}
+    }
+
+
+
+
+
+   
+/* header{
+    box-shadow:0px 0px 10px 0px #000000;
+} */
+
+
+/* .nav-item{
+    font-family: "Raleway", Sans-serif;
+} */
+
+    /* taggle-button start */
+/* .taggle-button{
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100px;
+    height: 20px;
+}
+.taggle-button .bar{
+    height: 4px;
+    width: 30px;
+    background-color: #3B3B3B;
+    border-radius: 10px;} */
+/* taggle-button end  */

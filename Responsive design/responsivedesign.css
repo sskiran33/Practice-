@@ -1,0 +1,94 @@
+*{
+   box-sizing: border-box;
+
+}
+/*using grid*/
+.con{
+    display:grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 1.5fr 1.2fr 0.2fr ;
+    grid-template-areas: "nav nav nav nav"
+    "sidbar main main main"
+    "sidbar con1 con2 con3"
+    "footer footer footer footer";
+    grid-gap: 0.2rem;
+    text-align: center;
+    
+}
+
+.nav{
+    background-color: aqua;
+    grid-area: nav;
+    text-align: center;
+    }
+
+.main{
+    background-color: aquamarine;
+    grid-area: main;
+     }
+
+.sidbar{
+    background-color:palegoldenrod;
+    text-decoration: none;
+    text-decoration: none;
+    grid-area: sidbar;
+   
+       }
+ ul {
+    list-style-type: none;
+    
+ }      
+li {
+        
+        padding: 8px 16px;
+ }
+
+a{
+    
+    text-decoration: none;
+    color: #000;
+} 
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+.con1{
+    background-color: blueviolet;
+    grid-area:con1;
+     }
+
+.con2{
+    background-color: brown;
+    grid-area:con2 ;
+     }
+
+.con3{
+    background-color: blanchedalmond;
+    grid-area:con3 ;
+    }
+
+.footer{
+    background-color:palevioletred;
+    grid-area:footer ;
+       }
+
+/*Media*/
+@media only screen and (max-width: 550px){
+
+    .con{
+        grid-template-columns: 2fr;
+        grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
+        grid-template-areas: "nav"
+         "sidbar"
+        "main"
+         "con1" 
+         "con2"
+          "con3"
+         "footer"; 
+        
+       }
+     }
+
+

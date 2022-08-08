@@ -1,0 +1,17 @@
+.image{
+    float: right;
+    width: 300px;
+}
+hr{
+   
+        height: 12px;
+        background: black;width: 100%;
+        
+}
+h1{
+    text-align: center;
+}
+.img2{
+    float: left;
+    width: 300px;
+}

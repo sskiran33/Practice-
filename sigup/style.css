@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    width: 220px;
+}
+body{
+    background-image: url("bg.png");
+    margin:0px 0px 200px 0px;
+}
+a{
+    margin:25px;
+    text-decoration: none;
+    color: black;
+}
+nav{
+
+    
+    margin:50px 0px 0px 200px;
+}
+.con1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 180px 0px 0px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+input{
+    margin: 10px;
+    border-radius: 40px;
+    padding: 18px;
+    background-color: #56C4C5;
+    border: none;
+    color: aliceblue;
+    width: 210px;
+    
+}
+h1{
+    margin: 0px 0px 0px 170px;
+    padding: 20px;
+   
+ 
+}
+.sign_up{
+    
+    border-radius: 20px;
+    border-color: black;
+
+}
+button{
+    border-radius: 40px;
+    padding: 18px;
+    background-color:whitesmoke;
+    border-color: aliceblue;
+   
+    color:#4285E8;
+    width: 240px;
+    ;
+
+}
+.create{
+
+   
+}
+.or_login{
+    color: #6CC5DE;
+    margin: 100px 0px 0px 210px;
+
+}
